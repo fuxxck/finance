@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.newer.finance.mapper")
 public class Application {
-
+///wwwwwwwwwwwwwwwwwwwwww
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
