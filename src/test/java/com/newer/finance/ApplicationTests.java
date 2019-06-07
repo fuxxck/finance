@@ -29,7 +29,7 @@ if (all[j]>all[j+1]){
        for (int num:all){
            System.out.println(num);
        }
-       
+
         }
 
 

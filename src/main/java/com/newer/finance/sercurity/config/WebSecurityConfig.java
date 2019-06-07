@@ -97,14 +97,16 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     "/favicon.ico",
                     "/**/*.html",
                     "/**/*.css",
-                    "/**/*.js"
+                    "/**/*.js",
+                    "login.html"
             ).permitAll()
 
             // Un-secure 登录 验证码
             .antMatchers(
                     "/api/auth/**",
                     "/api/verifyCode/**",
-                    "/api/global_json"
+                    "/api/global_json",
+                    "/api/codeimage"
             ).permitAll()
             // secure other api
             .anyRequest().authenticated();
